@@ -1,0 +1,32 @@
+/*Imported 'Forum' and 'Inter' fonts from google*/
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+html{
+    font-family: 'Forum' , serif;
+    font-size: 62.5%;
+}
+
+header{
+    height: 11vh;
+    border-bottom: 1px solid black;
+
+}
+.header-wrapper{
+    height: 100%;
+    max-width: 120rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    font-size: 4.5rem;
+    border: 1px solid black;
+    height: 100%;
+    flex-basis: 15%;
+}
+.header-wrapper nav{
+    flex-basis: 65%;
+}
+
